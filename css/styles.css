@@ -148,7 +148,7 @@ img {
   position: relative;
   z-index: 2;
   color: #fafafa;
-  padding: 120px 0 100px;
+  padding: 200px 48px 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -198,9 +198,16 @@ img {
 .works {
   padding-top: 60px;
   padding-bottom: 60px;
+  height: 300px;
+  /* background: #c7a17a; */
+  background: linear-gradient(
+    to right,
+    rgba(65, 81, 103, 0.3) 30%,
+    rgb(237, 240, 245) 30%
+  );
 }
 
-.works-container {
+/* .works-container {
   display: flex;
   gap: 36px;
 }
@@ -230,9 +237,9 @@ img {
   background-color: rgba(255, 255, 255, 0.6);
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translatey(-100%);
-}
+} */
 
-.works-title {
+/* .works-title {
   margin-bottom: 8px;
 }
 
@@ -259,20 +266,9 @@ img {
 .works-overlay-left:hover .works-text-wrap,
 .works-overlay-right:hover .works-text-wrap {
   transform: translatey(0%);
-}
-
-/* ------------------------- */
-/* .portfolio-item:hover .overlay {
-  transform: translatey(0%);
 } */
 
-/* .overlay-wrap {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-} */
-
-.overlay {
+/* .overlay {
   /* position: absolute;
   top: 0;
   font-size: 16px;
@@ -285,11 +281,11 @@ img {
   height: 100%;
   left: 0;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translatey(100%); */
-}
+  transform: translatey(100%);
+} */
 /* -------------------------- */
 
-.works-link {
+/* .works-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -304,14 +300,36 @@ img {
   border-radius: 12px;
   box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.8);
   transition: background-color 250ms ease-in;
+} */
+
+/* .works-link:hover {
+  background-color: #3b7383;
+} */
+/* --------------Commende---------------- */
+.commende {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 300px;
+  background: linear-gradient(
+    to right,
+    rgba(238, 170, 102, 0.3) 70%,
+    rgb(237, 240, 245) 70%
+  );
 }
 
-.works-link:hover {
-  background-color: #3b7383;
+.ware {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 300px;
+  background: linear-gradient(
+    to right,
+    rgb(237, 240, 245) 70%,
+    rgba(65, 81, 103, 0.3) 70%
+  );
 }
 
 /* ---------------footer------------ */
 .footer {
-  background-color: var(--accent-blue);
+  background-color: rgba(65, 81, 103, 1);
   height: 300px;
 }
